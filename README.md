@@ -4,8 +4,8 @@ A simple hdmi camera using a Raspberry Pi
 Welcome to my first public repo.  I made this to be able to feed hdmi video to a Herelink control system used on drones and other types of uncrewed vehicles (rovers, boats, submarines).  The Herelink system requires hdmi cameras which can be bought commercially, but I was not happy with any of the options I could buy for my projects.  Please feel to use and collaborate.
 
 Notes: 
-1) Uses Raspbian Buster Lite OS which allows the use of legacy camera software (raspicam) to sidestep difficulties encoutnered with libcamera-apps at the time of this version
-2) Lite (no desktop) version of OS required to avoid conflicts with hdmi output
+1) Uses Raspberry Pi OS (Buster) Lite because I've had trouble getting Bullseye to work even with legacy cameras enabled (this might be because I am using a Pi Zero).
+2) It's important to use the Lite (no desktop) version of OS to avoid conflicts with hdmi output
 3) Working SBCs:
     - Raspberry Pi Zero W
 4) Working cameras:
@@ -14,4 +14,18 @@ Notes:
 5) Failing cameras (help if you can!)
     - Rasberry Pi Camera V1
 
-Installation
+Setup:
+1) Start with a fresh or recent install of Raspberry Pi OS (Buster) Lite.
+2) Connect pi to output device of your choice (tv, monitor, video transmitter, etc).
+3) Connect and login to pi via ssh.
+4) Enable csi camera via raspi-config.
+5) Enter the following commands:
+    sudo apt update
+    sudo apt upgrade -y
+    sudo apt install git -y
+    sudo git clone <this repo>
+    cd
+    ./picam-hdmi/setup.sh
+6) After following the above the pi will dicsonnect from ssh and reboot.
+7) If you see a display from the camera on the connected output device, then it worked.
+8) If not, debug...
