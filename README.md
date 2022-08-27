@@ -23,6 +23,8 @@ Setup:
     sudo apt update
     sudo apt upgrade -y
     sudo apt install git -y
+    sudo git config --global user.email "you@example.com"
+    sudo git config --global user.name "Your Name"
     sudo git clone https://github.com/poozwally/picam-hdmi.git
     ./home/pi/picam-hdmi/setup.sh
 6) After following the above the pi will dicsonnect from ssh and reboot.
