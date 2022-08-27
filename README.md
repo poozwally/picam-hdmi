@@ -20,13 +20,13 @@ Setup:
 3) Connect and login to pi via ssh.
 4) Enable csi camera via raspi-config.
 5) Enter the following commands:
-    sudo apt update
-    sudo apt upgrade -y
-    sudo apt install git -y
-    sudo git config --global user.email "you@example.com"
-    sudo git config --global user.name "Your Name"
-    sudo git clone https://github.com/poozwally/picam-hdmi.git
-    ./home/pi/picam-hdmi/setup.sh
+    - sudo apt update
+    - sudo apt upgrade -y
+    - sudo apt install git -y
+    - sudo git config --global user.email "you@example.com"
+    - sudo git config --global user.name "Your Name"
+    - sudo git clone https://github.com/poozwally/picam-hdmi.git
+    - ./home/pi/picam-hdmi/setup.sh
 6) After following the above the pi will dicsonnect from ssh and reboot.
 7) If you see a display from the camera on the connected output device, then it worked.
 8) If not, debug...
