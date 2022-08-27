@@ -1,0 +1,10 @@
+[Unit]
+Description=Start the camera fullscreen
+
+[Service]
+Type=simple
+#ExecStart=libcamera-hello --viewfinder-width 1920 --viewfinder-height 1080 -f -t 0 &
+ExecStart=raspivid -f -k -w 1920 -h 1080 -t 0 -fps 15
+
+[Install]
+WantedBy=multi-user.target
