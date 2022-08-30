@@ -5,14 +5,15 @@ Welcome to my first public repo.  It's part of a few projects I'm working on, so
 
 Notes: 
 1) Uses Raspberry Pi OS (Buster) Lite because I've had trouble getting Bullseye to work even with legacy cameras enabled (this might be because I am using a Pi Zero).
-2) It's important to use the Lite (no desktop) version of OS to avoid conflicts with hdmi output
+2) It's important to use the Lite (no desktop) version of OS to avoid conflicts with hdmi output.
 3) Working SBCs:
     - Raspberry Pi Zero W
 4) Working cameras:
     - Rasberry Pi Camera V2.1
-    - Titri Hobby Raspberry Pi IR-Cut Camera (from Amazon: https://www.amazon.ca/gp/product/B083Y4QP84/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+    - Waveshare RPi IR-CUT Camera (https://www.waveshare.com/wiki/RPi_IR-CUT_Camera)
+    - Smraza SM41-CNF (https://www.smraza.com/products/smraza-camera-module-for-raspberry-pi-4-with-5mp-1080p-ov5647-video-webcam-supports-night-vision-compatible-with-raspberry-pi-3-b-3b-2-model-b-b-sm41)
 5) Failing cameras (help if you can!)
-    - Rasberry Pi Camera V1
+    - Rasberry Pi Camera V1, this surprises me so I'll probably try again soon
 
 Setup:
 1) Start with a fresh or recent install of Raspberry Pi OS (Buster) Lite.
