@@ -6,7 +6,7 @@ Welcome to my first public repo.  It's part of a few projects I'm working on, so
 Notes: 
 1) Uses Raspberry Pi OS (Buster) Lite because I've had trouble getting Bullseye to work even with legacy cameras enabled (this might be because I am using a Pi Zero).
 2) It's important to use the Lite (no desktop) version of OS to avoid conflicts with hdmi output.
-3) Working SBCs:
+3) Working SBCs (should be all RPi, but listed only listed below if tested):
     - Raspberry Pi Zero W
 4) Working cameras:
     - Rasberry Pi Camera V2.1
