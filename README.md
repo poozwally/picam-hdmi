@@ -1,7 +1,7 @@
 # picam-hdmi
 A simple hdmi camera using a Raspberry Pi
 
-Welcome to my first public repo.  It's part of a few projects I'm working on, so I split out the commands into a seperate repo I can just include any time I need rather than repeating code in multiple locations.  It's original purpose was to feed video to a Herelink control system used on drones and other types of uncrewed vehicles (rovers, boats, submarines), but it can be used by any project that needs an hdmi camera source.  The Herelink system requires an hdmi camera which can be bought commercially, but I was not happy with any of the options I could buy for my projects.  I adapted this from: https://webtechie.be/post/2021-12-20-raspberry-pi-as-hdmi-camera-for-atem-mini/, so thanks to the author.
+Welcome to my first public repo.  It's part of a few projects I'm working on, so I split out the commands into a seperate repo I can just include any time I need rather than repeating code in multiple locations.  It's original purpose was to feed video to a Herelink control system used on drones and other types of uncrewed vehicles (rovers, boats), but it can be used by any project that needs an hdmi camera source.  The Herelink system requires an hdmi camera which can be bought commercially, but I was not happy with any of the options I could buy for my projects.  I adapted this from: https://webtechie.be/post/2021-12-20-raspberry-pi-as-hdmi-camera-for-atem-mini/, so thanks to the author.
 
 Notes: 
 1) Uses Raspberry Pi OS (Buster) Lite because I've had trouble getting Bullseye to work even with legacy cameras enabled (this might be because I am using a Pi Zero).
